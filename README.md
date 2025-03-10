@@ -1,156 +1,157 @@
-<div align="center">
-
-[![Motor Admin Rails](https://user-images.githubusercontent.com/5418788/140520844-a947845d-b579-4b3f-9b49-c539ad3cf580.png)](https://www.getmotoradmin.com/ruby-on-rails)
-
-# Motor Admin Rails
-
-Low-code Admin panel and Business intelligence Rails engine **(no DSL - configurable from the UI)**.
-
-🤓 [Demo App](https://app.getmotoradmin.com/demo/) | 👀 [Features overview](https://www.youtube.com/watch?v=ngVoci8Hll4&list=PLu7llEMh0KcOkR3Uy_RJT0cXPZQKAYVsq&index=1) | ⭐ [Pro](https://www.getmotoradmin.com/ruby-on-rails)
+<div class="Box-sc-g0xbh4-0 QkQOb js-snippet-clipboard-copy-unpositioned undefined" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div align="center" dir="auto">
+<p dir="auto"><a href="https://www.getmotoradmin.com/ruby-on-rails" rel="nofollow"><img src="https://user-images.githubusercontent.com/5418788/140520844-a947845d-b579-4b3f-9b49-c539ad3cf580.png" alt="电机 Admin Rails" style="max-width: 100%;" _mstalt="279318" _msthash="274"></a></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto" _msttexthash="5656378" _msthash="275">电机 Admin Rails</h1><a id="user-content-motor-admin-rails" class="anchor" aria-label="永久链接：Motor Admin Rails" href="#motor-admin-rails" _mstaria-label="624273" _msthash="276"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="188999785" _msthash="277">低代码管理面板和商业智能 Rails 引擎<strong _istranslated="1">（无 DSL - 可从 UI 配置）。</strong></p>
+<p dir="auto" _msttexthash="116271922" _msthash="278">🤓 <a href="https://app.getmotoradmin.com/demo/" rel="nofollow" _istranslated="1">演示应用程序</a> |👀 <a href="https://www.youtube.com/watch?v=ngVoci8Hll4&amp;list=PLu7llEMh0KcOkR3Uy_RJT0cXPZQKAYVsq&amp;index=1" rel="nofollow" _istranslated="1">功能概述</a> |⭐ <a href="https://www.getmotoradmin.com/ruby-on-rails" rel="nofollow" _istranslated="1">专业版</a></p>
 </div>
+<p dir="auto"><a href="https://app.getmotoradmin.com/demo/" rel="nofollow"><img src="https://user-images.githubusercontent.com/5418788/119318538-1f30e300-bc82-11eb-94a4-107c31c93b13.png" alt="管理员面板" style="max-width: 100%;" _mstalt="149500" _msthash="279"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="5773755" _msthash="280">安装</h2><a id="user-content-installation" class="anchor" aria-label="永久链接：安装" href="#installation" _mstaria-label="519259" _msthash="281"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="75204623" _msthash="282">将此行添加到应用程序的 Gemfile 中：</p>
+<div class="highlight highlight-source-ruby notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-en">gem</span> <span class="pl-s">'motor-admin'</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="gem 'motor-admin'" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto" _msttexthash="21697299" _msthash="283">然后执行：</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>$ bundle install</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="$ bundle install" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto" _msttexthash="39950326" _msthash="284">创建并运行迁移：</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>$ rails motor:install <span class="pl-k">&amp;&amp;</span> rake db:migrate</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="$ rails motor:install &amp;&amp; rake db:migrate" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="5209451" _msthash="285">特征</h2><a id="user-content-features" class="anchor" aria-label="永久链接：功能" href="#features" _mstaria-label="370552" _msthash="286"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="#customizable-crud" _msttexthash="10849813" _msthash="287">可定制的 CRUD</a></li>
+<li><a href="#custom-actions" _msttexthash="10451155" _msthash="288">自定义作</a></li>
+<li><a href="#virtual-attributes" _msttexthash="11728730" _msthash="289">虚拟属性</a></li>
+<li><a href="#forms-builder" _msttexthash="15331043" _msthash="290">表单生成器</a></li>
+<li><a href="#sql-queries" _msttexthash="8603309" _msthash="291">SQL 查询</a></li>
+<li><a href="#data-visualization" _msttexthash="15150993" _msthash="292">数据可视化</a></li>
+<li><a href="#dashboards" _msttexthash="8569977" _msthash="293">仪表 板</a></li>
+<li><a href="#email-alerts" _msttexthash="21590257" _msthash="294">电子邮件提醒</a></li>
+<li><a href="#authorization" _msttexthash="5067920" _msthash="295">授权</a></li>
+<li><a href="#active-storage" _msttexthash="9443265" _msthash="296">主动存储</a></li>
+<li><a href="#intelligence-search" _msttexthash="12984374" _msthash="297">智能搜索</a></li>
+<li><a href="#i18n" _msttexthash="32591" _msthash="298">I18n</a></li>
+<li><a href="#optimized-for-mobile" _msttexthash="46390552" _msthash="299">针对移动设备进行了优化</a></li>
+<li><a href="#configurations-sync" _msttexthash="37318489" _msthash="300">环境之间的配置同步</a></li>
+<li><a href="#authentication" _msttexthash="6973876" _msthash="301">认证</a></li>
+<li _msttexthash="18559879" _msthash="302">多数据库支持</li>
+<li _msttexthash="12093562" _msthash="303">审计日志</li>
+<li _msttexthash="20069465" _msthash="304">实时协作笔记</li>
+<li _msttexthash="59941154" _msthash="305">通过 Slack 提供个性化报告提醒</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><a href="https://www.getmotoradmin.com/ruby-on-rails" rel="nofollow" _msttexthash="7321145" _msthash="306">专业版</a></h2><a id="user-content-pro" class="anchor" aria-label="永久链接：Pro" href="#pro" _mstaria-label="218478" _msthash="307"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li _msttexthash="67327078" _msthash="308">自定义样式和徽标（白标）</li>
+<li _msttexthash="24098295" _msthash="309">多重身份验证</li>
+<li _msttexthash="80392" _msthash="310">SSO/SAML</li>
+<li><a href="https://www.getmotoradmin.com/ruby-on-rails" rel="nofollow" _msttexthash="18324709" _msthash="311">了解更多信息</a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="10849813" _msthash="312">可定制的 CRUD</h3><a id="user-content-customizable-crud" class="anchor" aria-label="永久链接： 可定制的 CRUD" href="#customizable-crud" _mstaria-label="637494" _msthash="313"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/5418788/119318569-2a840e80-bc82-11eb-9ba3-f3964eb6f997.png"><img src="https://user-images.githubusercontent.com/5418788/119318569-2a840e80-bc82-11eb-9ba3-f3964eb6f997.png" alt="资源设置" style="max-width: 100%;" _mstalt="327236" _msthash="314"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/5418788/119263883-90708780-bbe9-11eb-9f9f-f76fed0b7f27.png"><img src="https://user-images.githubusercontent.com/5418788/119263883-90708780-bbe9-11eb-9f9f-f76fed0b7f27.png" alt="设置 UI" style="max-width: 100%;" _mstalt="148980" _msthash="315"></a></p>
+<p dir="auto" _msttexthash="407572646" _msthash="316">管理面板中的所有内容都可以使用直观的设置 UI 进行配置，该 UI 可以通过右上角的图标打开。</p>
+<p dir="auto"><font _mstmutation="1" _msttexthash="799776796" _msthash="317">资源页面上显示的数据可以通过 <a href="#sql-queries" _mstmutation="1" _istranslated="1">SQL 查询</a>和作为选项卡附加到资源的<a href="#dashboards" _mstmutation="1" _istranslated="1">控制面板</a>进行完全自定义。通常，用于显示资源数据的查询应包含 <a href="#sql-queries" _mstmutation="1" _istranslated="1">variable</a>。</font><code>{{resource_name_id}}</code></p>
+<p dir="auto"><a href="https://github.com/motor-admin/motor-admin-rails/blob/master/guides/customizing_resource_table.md" _msttexthash="63622949" _msthash="318">了解有关资源自定义的更多信息</a></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="10451155" _msthash="319">自定义作</h3><a id="user-content-custom-actions" class="anchor" aria-label="永久链接：自定义作" href="#custom-actions" _mstaria-label="554801" _msthash="320"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/5418788/119266132-3c1dd580-bbf2-11eb-9666-09e1640eaf7b.png"><img src="https://user-images.githubusercontent.com/5418788/119266132-3c1dd580-bbf2-11eb-9666-09e1640eaf7b.png" alt="自定义作" style="max-width: 100%;" _mstalt="237224" _msthash="321"></a></p>
+<p dir="auto" _msttexthash="534260623" _msthash="322">自定义资源作可以通过 Active Record 方法调用、API 端点或<a href="#forms-builder" _istranslated="1">自定义表单</a>添加。此外，还可以覆盖默认的 create/update/delete作。</p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="11728730" _msthash="323">虚拟属性</h3><a id="user-content-virtual-attributes" class="anchor" aria-label="永久链接：虚拟属性" href="#virtual-attributes" _mstaria-label="746655" _msthash="324"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="711248824" _msthash="325">任何 ActiveRecord 模型的方法或属性都可以通过添加一个名称与资源模型中的方法名称匹配的新列来暴露给管理面板：</p>
+<div class="highlight highlight-source-ruby notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">class</span> <span class="pl-v">Customer</span> &lt; <span class="pl-v">ApplicationRecord</span>
+  <span class="pl-en">has_many</span> <span class="pl-pds">:orders</span>
 
-[![Admin Panel](https://user-images.githubusercontent.com/5418788/119318538-1f30e300-bc82-11eb-94a4-107c31c93b13.png)](https://app.getmotoradmin.com/demo/)
-
-## Installation
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'motor-admin'
-```
-
-And then execute:
-```bash
-$ bundle install
-```
-
-Create and run migration:
-```bash
-$ rails motor:install && rake db:migrate
-```
-
-## Features
-
-* [Customizable CRUD](#customizable-crud)
-* [Custom actions](#custom-actions)
-* [Virtual attributes](#virtual-attributes)
-* [Forms builder](#forms-builder)
-* [SQL queries](#sql-queries)
-* [Data visualization](#data-visualization)
-* [Dashboards](#dashboards)
-* [Email alerts](#email-alerts)
-* [Authorization](#authorization)
-* [Active Storage](#active-storage)
-* [Intelligence search](#intelligence-search)
-* [I18n](#i18n)
-* [Optimized for mobile](#optimized-for-mobile)
-* [Configurations sync between environments](#configurations-sync)
-* [Authentication](#authentication)
-* Multiple databases support
-* Audit log
-* Live collaboration notes
-* Personalized report alerts via Slack
-
-## [Pro](https://www.getmotoradmin.com/ruby-on-rails)
-
-* Custom styling and logo (white label)
-* Multi-factor authentication
-* SSO/SAML
-* [learn more](https://www.getmotoradmin.com/ruby-on-rails)
-
-### Customizable CRUD
-
-![Resource settings](https://user-images.githubusercontent.com/5418788/119318569-2a840e80-bc82-11eb-9ba3-f3964eb6f997.png)
-
-![Settings UI](https://user-images.githubusercontent.com/5418788/119263883-90708780-bbe9-11eb-9f9f-f76fed0b7f27.png)
-
-Everything in the admin panel can be configured using the intuitive settings UI, which can be opened via the icon in the top right corner.
-
-Data displayed on the resource page can be completely customized via [SQL queries](#sql-queries) and [dashboards](#dashboards) attached to the resource as a tab. Usually, queries used to display resource data should contain `{{resource_name_id}}` [variable](#sql-queries).
-
-[Learn more about resource customizations](https://github.com/motor-admin/motor-admin-rails/blob/master/guides/customizing_resource_table.md)
-
-### Custom Actions
-
-![Custom actions](https://user-images.githubusercontent.com/5418788/119266132-3c1dd580-bbf2-11eb-9666-09e1640eaf7b.png)
-
-Custom resource actions can be added via Active Record method call, API endpoint, or [custom forms](#forms-builder). Also, it's possible to override default create/update/delete actions.
-
-### Virtual attributes
-
-Any ActiveRecord model method or attribute can be exposed to the admin panel by adding a new column with the name that matches the method name from the resource model:
-
-```ruby
-class Customer < ApplicationRecord
+  <span class="pl-k">def</span> <span class="pl-en">lifetime_value</span>
+    <span class="pl-en">orders</span><span class="pl-kos">.</span><span class="pl-en">sum</span><span class="pl-kos">(</span>&amp;<span class="pl-pds">:total_price</span><span class="pl-kos">)</span>
+  <span class="pl-k">end</span>
+<span class="pl-k">end</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="class Customer < ApplicationRecord
   has_many :orders
 
   def lifetime_value
-    orders.sum(&:total_price)
+    orders.sum(&amp;:total_price)
   end
-end
-```
-
-![Virtual attribute](https://user-images.githubusercontent.com/5418788/123373683-76321c80-d58e-11eb-914d-675444b7eb2a.png)
-
-### Forms Builder
-
-![Custom form](https://user-images.githubusercontent.com/5418788/119264008-1391dd80-bbea-11eb-9f14-cb405e77fb60.png)
-
-Values from the form fields can be used in API path via `{field_name}` syntax: `/api/some-endpoint/{resource_id}/apply`.
-
-[Learn more about custom forms builder](https://github.com/motor-admin/motor-admin-rails/blob/master/guides/building_custom_forms.md)
-
-### SQL Queries
-
-![SQL query](https://user-images.githubusercontent.com/5418788/119264127-84d19080-bbea-11eb-9903-ef465d1d2c97.png)
-
-Queries can include embedded variables via `{{variable}}` syntax ([mustache](https://mustache.github.io)). `{{#variable}} ... {{/variable}}` syntax allows to decide if conditions inside the scope should be included in the query.
-
-### Data Visualization
-
-![motor-visualization](https://user-images.githubusercontent.com/5418788/119264625-a2075e80-bbec-11eb-986c-6106dd6e47ce.png)
-
-Data from the SQL query can be represented as: table, number, line chart, bar chart, pie chart, funnel, markdown.
-
-### Dashboards
-
-![Dashboard](https://user-images.githubusercontent.com/5418788/119264726-f579ac80-bbec-11eb-852e-8055f8aba200.png)
-
-SQL queries can be organized into dashboards to create a convenient representation of the data.
-
-### Email Alerts
-
-![Email alert](https://user-images.githubusercontent.com/5418788/119265049-feb74900-bbed-11eb-8070-bcc8d6113b9b.png)
-
-Query data can be sent via email periodically using the alerts feature. Interval of the alert email can be specified using natural language, e.g., `every day at midnight`, `every Monday at 8 PM`, `every weekday at 6AM and 6PM`, `every minute`.
-
-Sender address can be specified using `MOTOR_ALERTS_FROM_ADDRESS` environment variable.
-
-### Intelligence Search
-
-![Intelligence search](https://user-images.githubusercontent.com/5418788/119266559-eea26800-bbf3-11eb-8cb3-d0538aa386a9.png)
-
-Intelligence search can be opened via the top right corner button or using <kbd>Cmd</kbd> + <kbd>K</kbd> shortcut.
-
-### Authorization
-
-Motor Admin allows to set row-level and column-level permissions via [cancan](https://github.com/CanCanCommunity/cancancan) gem. Admin UI permissions should be defined in `app/models/motor/ability.rb` file in `Motor::Ability` class. See [Motor Admin guide](https://github.com/motor-admin/motor-admin-rails/blob/master/guides/defining_permissions.md) and [CanCan documentation](https://github.com/CanCanCommunity/cancancan/blob/develop/docs/Defining-Abilities.md) to learn how to define user permissions.
-
-### Active Storage
-
-Motor Admin is configured by default to perform uploads to the provider you configured in your `storage.yml` file for Active Storage. If you are using large uploads within Motor Admin you will need to enable direct uploads by setting the following ENV variable. 
-
-```sh
-MOTOR_ACTIVE_STORAGE_DIRECT_UPLOADS_ENABLED=true
-```
-
-_Note: At the moment, this will enable direct uploads globally_
-
-### I18n
-
-Motor Admin can use Rails ActiveRecord i18n keys to render resource translations:
-
-```yml
-es:
+end" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/5418788/123373683-76321c80-d58e-11eb-914d-675444b7eb2a.png"><img src="https://user-images.githubusercontent.com/5418788/123373683-76321c80-d58e-11eb-914d-675444b7eb2a.png" alt="虚拟属性" style="max-width: 100%;" _mstalt="326625" _msthash="326"></a></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="15331043" _msthash="327">表单生成器</h3><a id="user-content-forms-builder" class="anchor" aria-label="永久链接：Forms Builder" href="#forms-builder" _mstaria-label="508508" _msthash="328"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/5418788/119264008-1391dd80-bbea-11eb-9f14-cb405e77fb60.png"><img src="https://user-images.githubusercontent.com/5418788/119264008-1391dd80-bbea-11eb-9f14-cb405e77fb60.png" alt="自定义表单" style="max-width: 100%;" _mstalt="162019" _msthash="329"></a></p>
+<p dir="auto"><font _mstmutation="1" _msttexthash="141088246" _msthash="330">表单字段中的值可以通过语法在 API 路径中使用： 。</font><code>{field_name}</code><code>/api/some-endpoint/{resource_id}/apply</code></p>
+<p dir="auto"><a href="https://github.com/motor-admin/motor-admin-rails/blob/master/guides/building_custom_forms.md" _msttexthash="84377540" _msthash="331">了解有关自定义表单生成器的更多信息</a></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="8603309" _msthash="332">SQL 查询</h3><a id="user-content-sql-queries" class="anchor" aria-label="永久链接：SQL 查询" href="#sql-queries" _mstaria-label="423202" _msthash="333"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/5418788/119264127-84d19080-bbea-11eb-9903-ef465d1d2c97.png"><img src="https://user-images.githubusercontent.com/5418788/119264127-84d19080-bbea-11eb-9903-ef465d1d2c97.png" alt="SQL 查询" style="max-width: 100%;" _mstalt="113334" _msthash="334"></a></p>
+<p dir="auto"><font _mstmutation="1" _msttexthash="461070246" _msthash="335">查询可以通过语法 （<a href="https://mustache.github.io" rel="nofollow" _mstmutation="1" _istranslated="1">mustache</a>） 包含嵌入的变量。 语法允许决定是否应将范围内的条件包含在查询中。</font><code>{{variable}}</code><code>{{#variable}} ... {{/variable}}</code></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="15150993" _msthash="336">数据可视化</h3><a id="user-content-data-visualization" class="anchor" aria-label="永久链接：数据可视化" href="#data-visualization" _mstaria-label="729482" _msthash="337"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/5418788/119264625-a2075e80-bbec-11eb-986c-6106dd6e47ce.png"><img src="https://user-images.githubusercontent.com/5418788/119264625-a2075e80-bbec-11eb-986c-6106dd6e47ce.png" alt="电机可视化" style="max-width: 100%;" _mstalt="424398" _msthash="338"></a></p>
+<p dir="auto" _msttexthash="293430488" _msthash="339">来自 SQL 查询的数据可以表示为：表格、数字、折线图、条形图、饼图、漏斗图、Markdown。</p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="8569977" _msthash="340">仪表 板</h3><a id="user-content-dashboards" class="anchor" aria-label="永久链接：仪表板" href="#dashboards" _mstaria-label="434317" _msthash="341"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/5418788/119264726-f579ac80-bbec-11eb-852e-8055f8aba200.png"><img src="https://user-images.githubusercontent.com/5418788/119264726-f579ac80-bbec-11eb-852e-8055f8aba200.png" alt="挡泥板" style="max-width: 100%;" _mstalt="131222" _msthash="342"></a></p>
+<p dir="auto" _msttexthash="204173983" _msthash="343">SQL 查询可以组织到控制面板中，以创建方便的数据表示形式。</p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="21590257" _msthash="344">电子邮件提醒</h3><a id="user-content-email-alerts" class="anchor" aria-label="永久链接： 电子邮件提醒" href="#email-alerts" _mstaria-label="467220" _msthash="345"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/5418788/119265049-feb74900-bbed-11eb-8070-bcc8d6113b9b.png"><img src="https://user-images.githubusercontent.com/5418788/119265049-feb74900-bbed-11eb-8070-bcc8d6113b9b.png" alt="电子邮件提醒" style="max-width: 100%;" _mstalt="156182" _msthash="346"></a></p>
+<p dir="auto"><font _mstmutation="1" _msttexthash="504030995" _msthash="347">使用警报功能可以定期通过电子邮件发送查询数据。警报电子邮件的间隔可以使用自然语言指定，例如、 .</font><code>every day at midnight</code><code>every Monday at 8 PM</code><code>every weekday at 6AM and 6PM</code><code>every minute</code></p>
+<p dir="auto"><font _mstmutation="1" _msttexthash="70744050" _msthash="348">发件人地址可以使用环境变量指定。</font><code>MOTOR_ALERTS_FROM_ADDRESS</code></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="12043551" _msthash="349">情报搜索</h3><a id="user-content-intelligence-search" class="anchor" aria-label="永久链接：情报搜索" href="#intelligence-search" _mstaria-label="754546" _msthash="350"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/5418788/119266559-eea26800-bbf3-11eb-8cb3-d0538aa386a9.png"><img src="https://user-images.githubusercontent.com/5418788/119266559-eea26800-bbf3-11eb-8cb3-d0538aa386a9.png" alt="智能搜索" style="max-width: 100%;" _mstalt="377455" _msthash="351"></a></p>
+<p dir="auto"><font _mstmutation="1" _msttexthash="152183291" _msthash="352">可以通过右上角的按钮或使用 + 快捷方式打开情报搜索。</font><kbd>Cmd</kbd><kbd>K</kbd></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="5067920" _msthash="353">授权</h3><a id="user-content-authorization" class="anchor" aria-label="永久链接：授权" href="#authorization" _mstaria-label="565968" _msthash="354"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font _mstmutation="1" _msttexthash="965926754" _msthash="355">Motor Admin 允许通过 <a href="https://github.com/CanCanCommunity/cancancan" _mstmutation="1" _istranslated="1">cancan</a> gem 设置行级和列级权限。管理员 UI 权限应在类的文件中定义。请参阅 <a href="https://github.com/motor-admin/motor-admin-rails/blob/master/guides/defining_permissions.md" _mstmutation="1" _istranslated="1">Motor Admin 指南</a>和 <a href="https://github.com/CanCanCommunity/cancancan/blob/develop/docs/Defining-Abilities.md" _mstmutation="1" _istranslated="1">CanCan 文档</a>，了解如何定义用户权限。</font><code>app/models/motor/ability.rb</code><code>Motor::Ability</code></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="9443265" _msthash="356">主动存储</h3><a id="user-content-active-storage" class="anchor" aria-label="永久链接：Active Storage" href="#active-storage" _mstaria-label="546520" _msthash="357"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font _mstmutation="1" _msttexthash="1206560277" _msthash="358">默认情况下，Motor Admin 配置为执行上传到您在文件中为 Active Storage 配置的提供程序。如果您在 Motor Admin 中使用大型上传，则需要通过设置以下 ENV 变量来启用直接上传。</font><code>storage.yml</code></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>MOTOR_ACTIVE_STORAGE_DIRECT_UPLOADS_ENABLED=true</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="MOTOR_ACTIVE_STORAGE_DIRECT_UPLOADS_ENABLED=true" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><em _msttexthash="119315144" _msthash="359">注意：目前，这将在全球范围内启用直接上传</em></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="32591" _msthash="360">I18n</h3><a id="user-content-i18n" class="anchor" aria-label="永久链接：I18n" href="#i18n" _mstaria-label="216736" _msthash="361"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="218302084" _msthash="362">Motor 管理员可以使用 Rails ActiveRecord i18n 键来渲染资源翻译：</p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-ent">es</span>:
+  <span class="pl-ent">activerecord</span>:
+    <span class="pl-ent">models</span>:
+      <span class="pl-ent">customer</span>:
+        <span class="pl-ent">one</span>: <span class="pl-s">Cliente</span>
+        <span class="pl-ent">other</span>: <span class="pl-s">Clientes</span>
+    <span class="pl-ent">attributes</span>:
+      <span class="pl-ent">customer</span>:
+        <span class="pl-ent">name</span>: <span class="pl-s">Nombre</span>
+    <span class="pl-ent">scopes</span>:
+      <span class="pl-ent">customer</span>:
+        <span class="pl-ent">enabled</span>: <span class="pl-s">Activado</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="es:
   activerecord:
     models:
       customer:
@@ -161,57 +162,81 @@ es:
         name: Nombre
     scopes:
       customer:
-        enabled: Activado
-```
-
-### Optimized for Mobile
-
-![motor-mobile](https://user-images.githubusercontent.com/5418788/119269566-03392d00-bc01-11eb-9e9d-1f6a58fe0749.png)
-
-
-### Configurations Sync
-
-All admin panel configurations are automatically stored in the `config/motor.yml` file. It's recommended to include this file in the application git repository to always have the admin panel configurations in sync across different local and remote environments.
-
-It's possible to sync local development admin panel configurations with remote production application via `rake motor:sync` task:
-
-```bash
-MOTOR_SYNC_REMOTE_URL=https://remote-app-url/ MOTOR_SYNC_API_KEY=secure-random-string rake motor:sync
-```
-
-
-## Authentication
-
-Admin panel can be secured with 'Basic authentication' by specifying `MOTOR_AUTH_USERNAME` and `MOTOR_AUTH_PASSWORD` environment variables.
-
-Alternatively, it can be secured with [devise](https://github.com/heartcombo/devise/wiki/How-To:-Define-resource-actions-that-require-authentication-using-routes.rb) or any other authentication library used by the application:
-
-```ruby
-authenticate :admin_user do
+        enabled: Activado" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="46390552" _msthash="363">针对移动设备进行了优化</h3><a id="user-content-optimized-for-mobile" class="anchor" aria-label="永久链接：针对移动设备进行了优化" href="#optimized-for-mobile" _mstaria-label="768001" _msthash="364"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/5418788/119269566-03392d00-bc01-11eb-9e9d-1f6a58fe0749.png"><img src="https://user-images.githubusercontent.com/5418788/119269566-03392d00-bc01-11eb-9e9d-1f6a58fe0749.png" alt="机动移动" style="max-width: 100%;" _mstalt="199862" _msthash="365"></a></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="12869077" _msthash="366">配置同步</h3><a id="user-content-configurations-sync" class="anchor" aria-label="永久链接：配置同步" href="#configurations-sync" _mstaria-label="778895" _msthash="367"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font _mstmutation="1" _msttexthash="869604580" _msthash="368">所有管理面板配置都自动存储在文件中。建议将此文件包含在应用程序 git 存储库中，以便始终使管理面板配置在不同的本地和远程环境中保持同步。</font><code>config/motor.yml</code></p>
+<p dir="auto"><font _mstmutation="1" _msttexthash="235932164" _msthash="369">可以通过任务将本地开发管理面板配置与远程生产应用程序同步：</font><code>rake motor:sync</code></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>MOTOR_SYNC_REMOTE_URL=https://remote-app-url/ MOTOR_SYNC_API_KEY=secure-random-string rake motor:sync</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="MOTOR_SYNC_REMOTE_URL=https://remote-app-url/ MOTOR_SYNC_API_KEY=secure-random-string rake motor:sync" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="6973876" _msthash="370">认证</h2><a id="user-content-authentication" class="anchor" aria-label="永久链接：身份验证" href="#authentication" _mstaria-label="599261" _msthash="371"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font _mstmutation="1" _msttexthash="224254797" _msthash="372">通过指定和环境变量，可以使用“基本身份验证”来保护管理面板。</font><code>MOTOR_AUTH_USERNAME</code><code>MOTOR_AUTH_PASSWORD</code></p>
+<p dir="auto" _msttexthash="276277976" _msthash="373">或者，可以使用 <a href="https://github.com/heartcombo/devise/wiki/How-To:-Define-resource-actions-that-require-authentication-using-routes.rb" _istranslated="1">devise</a> 或应用程序使用的任何其他身份验证库来保护它：</p>
+<div class="highlight highlight-source-ruby notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-en">authenticate</span> <span class="pl-pds">:admin_user</span> <span class="pl-k">do</span>
+  <span class="pl-en">mount</span> <span class="pl-v">Motor</span>::<span class="pl-v">Admin</span> <span class="pl-c1">=&gt;</span> <span class="pl-s">'/admin'</span>
+<span class="pl-k">end</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="authenticate :admin_user do
   mount Motor::Admin => '/admin'
-end
-```
-
-## Development
-
-Start webpack dev server:
-
-```bash
-yarn install && yarn serve
-```
-
-Setup development database:
-
-```bash
-rake app:db:create && rake app:db:setup
-```
-
-Start example application in development mode:
-
-```bash
-MOTOR_DEVELOPMENT=true rails s
-```
-
-## License
-
-Motor Admin is licensed under the MIT license.
+end" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="4410835" _msthash="374">发展</h2><a id="user-content-development" class="anchor" aria-label="永久链接： 开发" href="#development" _mstaria-label="480220" _msthash="375"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="49053836" _msthash="376">启动 webpack 开发服务器：</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>yarn install <span class="pl-k">&amp;&amp;</span> yarn serve</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="yarn install &amp;&amp; yarn serve" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto" _msttexthash="35944571" _msthash="377">设置开发数据库：</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>rake app:db:create <span class="pl-k">&amp;&amp;</span> rake app:db:setup</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="rake app:db:create &amp;&amp; rake app:db:setup" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto" _msttexthash="79187472" _msthash="378">在开发模式下启动示例应用程序：</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>MOTOR_DEVELOPMENT=true rails s</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="MOTOR_DEVELOPMENT=true rails s" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="9675445" _msthash="379">许可证</h2><a id="user-content-license" class="anchor" aria-label="永久链接：许可证" href="#license" _mstaria-label="331903" _msthash="380"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="84122480" _msthash="381">Motor Admin 根据 MIT 许可证获得许可。</p>
+</article></div>
